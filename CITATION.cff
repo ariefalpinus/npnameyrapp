@@ -1,0 +1,127 @@
+cff-version: 1.2.0
+title: "npnameyrapp: A Shiny App for Wildlife Monitoring"
+version: "1.0"
+date-released: 2025-11-20
+authors:
+  - family-names: "Budiman"
+    given-names: "Arief"
+  - family-names: "Pudyatmoko"
+    given-names: "Satyawan"
+license: GPL-3.0
+repository-code: "https://github.com/yourusername/npnameyrapp"
+message: "If you use this app, please cite it using the metadata below."
+keywords:
+  - wildlife monitoring
+  - camera traps
+  - Shiny
+  - R
+  - conservation
+
+references:
+  - type: manual
+    title: "R: A Language and Environment for Statistical Computing"
+    authors:
+      - family-names: "R Core Team"
+    year: 2024
+    publisher:
+      name: "R Foundation for Statistical Computing"
+      address: "Vienna, Austria"
+    url: "https://www.R-project.org/"
+
+  - type: article
+    title: "Free range livestock influence species richness, occupancy, and daily behaviour of wild mammalian species in Baluran National Park, Indonesia"
+    authors:
+      - family-names: "Pudyatmoko"
+        given-names: "Satyawan"
+    year: 2017
+    journal: "Mammalian Biology"
+    volume: 86
+    pages: "33–41"
+    doi: "10.1016/j.mambio.2017.04.001"
+    identifiers:
+      - type: doi
+        value: "10.1016/j.mambio.2017.04.001"
+
+  - type: software
+    title: "shiny: Web Application Framework for R"
+    authors:
+      - family-names: "Chang"
+        given-names: "W."
+      - family-names: "Cheng"
+        given-names: "J."
+      - family-names: "Allaire"
+        given-names: "J."
+      - family-names: "Sievert"
+        given-names: "C."
+      - family-names: "Schloerke"
+        given-names: "B."
+      - family-names: "Xie"
+        given-names: "Y."
+      - family-names: "Allen"
+        given-names: "J."
+      - family-names: "McPherson"
+        given-names: "J."
+      - family-names: "Dipert"
+        given-names: "A."
+      - family-names: "Borges"
+        given-names: "B."
+    year: 2024
+    version: "1.10.0"
+    url: "https://CRAN.R-project.org/package=shiny"
+
+  - type: article
+    title: "camtrapR: An R package for efficient camera trap data management"
+    authors:
+      - family-names: "Niedballa"
+        given-names: "Jürgen"
+      - family-names: "Sollmann"
+        given-names: "Rahel"
+      - family-names: "Courtiol"
+        given-names: "Alexandre"
+      - family-names: "Wilting"
+        given-names: "Andreas"
+    year: 2016
+    journal: "Methods in Ecology and Evolution"
+    volume: 7
+    issue: 12
+    pages: "1457–1462"
+
+  - type: software
+    title: "overlap: Estimates of Coefficient of Overlapping for Animal Activity Patterns"
+    authors:
+      - family-names: "Meredith"
+        given-names: "M."
+      - family-names: "Ridout"
+        given-names: "M."
+      - family-names: "Campbell"
+        given-names: "L. A."
+    year: 2024
+    version: "0.3.9"
+    url: "https://CRAN.R-project.org/package=overlap"
+
+  - type: software
+    title: "RPresence: R Interface for Program PRESENCE"
+    authors:
+      - family-names: "MacKenzie"
+        given-names: "D."
+      - family-names: "Hines"
+        given-names: "J."
+    year: 2025
+    version: "2.15.20"
+    url: "https://www.mbr-pwrc.usgs.gov/software/presence.html"
+
+  - type: article
+    title: "Habitat suitability of a peatland landscape for tiger translocation on Kampar Peninsula, Sumatra, Indonesia"
+    authors:
+      - family-names: "Pudyatmoko"
+        given-names: "Satyawan"
+      - family-names: "Budiman"
+        given-names: "Arief"
+      - family-names: "Siregar"
+        given-names: "Andri Hansen"
+    year: 2023
+    journal: "Wetlands Ecology and Management"
+    doi: "10.1007/s42991-023-00361-8"
+    identifiers:
+      - type: doi
+        value: "10.1007/s42991-023-00361-8"

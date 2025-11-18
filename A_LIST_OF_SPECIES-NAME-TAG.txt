@@ -1,0 +1,55 @@
+# A LIST OF SPECIES-NAME TAG
+https://www.gbif.org/
+
+Aalbirostris, Anthracoceros albirostris
+Abinturong, Arctictis binturong	
+Acinereus, Aonyx cinereus	
+Bbubalis, Bubalus bubalis	
+Bjavanicus, Bos javanicus	
+Brhinoceros, Buceros rhinoceros	
+Btaurus, Bos taurus	
+Calpinus, Cuon alpinus 	
+Ecaeruleus, Elanus caeruleus	
+Emaximus, Elephas maximus 	
+Hagilis, Hylobates agilis 	
+Halbibarbis, Hylobates albibarbis	
+Hjavanica, Hystrix javanica	
+Hleucogaster, Haliaeetus leucogaster	
+Hmalayanus, Helarctos malayanus 	
+Hmoloch, Hylobates moloch	
+Hsapien, Homo sapiens	
+Imalayensis, Ictinaetus malayensis	
+Mfascicularis, Macaca fascisularis	
+Miscellaneous	
+Mjavanica, Manis javanica 	
+Mmuntjac, Muntiacus muntjac 	
+Mnemestrina, Macaca nemestrina	
+Morientalis, Melogale orientalis	
+Nbartelsi, Nisaetus bartelsi 	
+Ncirrhatus, Nisaetus cirrhatus 	
+Nlarvatus, Nasalis larvatus
+Palbelii, Pongo albelii 	
+Pbengalensis, Prionailurus bengalensis	
+Pcomata, Presbytis comata 	
+Pfredericae, Presbytis fredericae 	
+Phermaphroditus, Paradoxurus hermaphroditus	
+Pmelalophos, Presbytis melalophos 	
+Pmuticus, Pavo muticus	
+Ppardus, Panthera pardus melas	
+Ppygmaeus, Pongo pygmaeus	
+Prubicunda, Presbytis rubicunda	
+Ptigris, Panthera tigris	
+Pviverrinus, Prionailurus viverrinus	
+Rsondaicus, Rhinoceros sondaicus	
+Rtimorensis, Rusa timorensis	
+Rundulatus, Rhyticeros undulatus	
+Runicolor, Rusa unicolor	
+Sbarbatus, Sus barbatus	
+Sbitorquata, Streptopelia bitorquata 	
+Schella, Spilornis cheela 	
+Schinensis, Spilopelia chinensis 	
+Sscrofa, Sus scrofa	
+Sverrucosus, Sus verrucosus	
+Tauratus, Trachypithecus auratus	
+Tjavanicus, Tragulus javanica	
+Vindica, Viverricula indica	
