@@ -9,6 +9,36 @@ An interactive Shiny application to help National Park staff manage and prepare 
 
 ---
 
+<p align="center">
+
+  <!-- Project Status -->
+  <img src="https://img.shields.io/badge/status-active-brightgreen" alt="Status">
+
+  <!-- License -->
+  <img src="https://img.shields.io/github/license/ariefalpinus/npnameyrapp" alt="License">
+
+  <!-- Stars -->
+  <img src="https://img.shields.io/github/stars/ariefalpinus/npnameyrapp?style=flat" alt="Stars">
+
+  <!-- Forks -->
+  <img src="https://img.shields.io/github/forks/ariefalpinus/npnameyrapp?style=flat" alt="Forks">
+
+  <!-- Issues -->
+  <img src="https://img.shields.io/github/issues/ariefalpinus/npnameyrapp" alt="Issues">
+
+  <!-- Repo Size -->
+  <img src="https://img.shields.io/github/repo-size/ariefalpinus/npnameyrapp" alt="Repo Size">
+
+  <!-- Hits counter -->
+  <img src="https://hits.sh/github.com/ariefalpinus/npnameyrapp.svg" alt="Hits">
+
+  <!-- Downloads (works after first GitHub Release) -->
+  <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total" alt="Downloads">
+
+</p>
+
+---
+
 ## Contents
 - [Introduction](#introduction)
 - [Download & Extract ZIP File](#download--extract-zip-file)
