@@ -115,14 +115,26 @@ Both applications contain several “layers” grouped into two categories:
 - `excel_outdir` – `<working_directory>/workdir`  
 - **EXIFTOOL Path** – folder containing `exiftool.exe` (e.g., `C:/Windows`)  
 
+**Fig 1. App1 — Opening (layer input: PATH)**  
+![Fig 1 — App1 Opening](images/fig01_app1_opening_path.png)
+
 **CT Table Upload**
 - Browse to `CT_TABLE.txt` located in `<working_directory>/data/ctTable`  
+
+**Fig 2. App1 — Upload CT_TABLE.txt (layer input)**  
+![Fig 2 — App1 Upload CT_TABLE.txt](images/fig02_app1_upload_ct_table.png)
 
 #### Outputs (saved to `excel_outdir`)
 - Record Table  
 - Camera Operation Matrix  
 - Survey Report  
 - `App1_output.RData`  
+
+**Fig 3. App1 — Record_Table (layer processing result)**  
+![Fig 3 — App1 Record_Table](images/fig03_app1_record_table.png)
+
+**Fig 4. App1 — SurveyReport (layer processing result)**  
+![Fig 4 — App1 SurveyReport](images/fig04_app1_survey_report.png)
 
 ---
 
@@ -135,8 +147,14 @@ Both applications contain several “layers” grouped into two categories:
 - `inDir` – `<working_directory>/workdir`  
 - `outDir` – `<working_directory>/workdir/analysis`  
 
+**Fig 5. App2 — Opening (layer input: PATH)**  
+![Fig 5 — App2 Opening](images/fig05_app2_opening_path.png)
+
 **Upload App1_output**
 - Browse to `App1_output.RData` located in `<working_directory>/workdir`  
+
+**Fig 6. App2 — Upload App1_output.RData (layer input)**  
+![Fig 6 — App2 Upload App1_output.RData](images/fig06_app2_upload_rdata.png)
 
 #### Outputs (saved to `outDir`)
 - GBIF validation table  
@@ -144,40 +162,24 @@ Both applications contain several “layers” grouped into two categories:
 - Kernel Density Plot (PNG, 600 dpi resolution)  
 - Static Occupancy Table  
 
+**Fig 7. App2 — GBIF Validation (layer processing result)**  
+![Fig 7 — App2 GBIF Validation](images/fig07_app2_gbif_validation.png)
+
+**Fig 8. App2 — Relative Abundance Index (layer processing result)**  
+![Fig 8 — App2 Relative Abundance Index](images/fig08_app2_rai_index.png)
+
+**Fig 9. App2 — Kernel Density Plot (layer processing result)**  
+![Fig 9 — App2 Kernel Density Plot](images/fig09_app2_kernel_density.png)
+
+**Fig 10. App2 — Static Occupancy Model (layer processing result)**  
+![Fig 10 — App2 Static Occupancy Model](images/fig10_app2_occupancy_model.png)
+
 ---
 
 ## Folder Structure
 
-npnameyrapp.zip
-└── npnameyrapp/
-    ├── data/
-    │   ├── CTmonitoring/              # Raw camera trap station folders
-    │   ├── CTmonitoring_rename/       # Output folder (generated automatically)
-    │   └── ctTable/
-    │       ├── CT_TABLE.txt           # Tab-delimited CT table
-    │       ├── CT_TABLE.xlsx
-    │       └── A_LIST_OF_SPECIES-NAME-TAG.txt
-    │
-    ├── script/
-    │   ├── run_APP.R                  # Launcher for App1
-    │   └── run_APP2.R                 # Launcher for App2
-    │
-    ├── KEY_APP/                       # Core Shiny functions/modules
-    ├── app.R                          # Shiny App1
-    ├── app2.R                         # Shiny App2
-    ├── run_occupancy_analysis.R       # Supporting analysis script
-    │
-    ├── workdir/                       # App1 output folder
-    │   ├── analysis/                  # App2 output folder
-    │   └── App1_output.RData          # Example App1 output
-    │
-    ├── NPnameyrapp.Rproj              # RStudio project file
-    ├── README.md                      # Documentation
-    ├── LICENSE.txt
-    ├── CITATION.cff
-    ├── CONTRIBUTING.md
-    ├── FAQ.md
-    └── CHANGELOG.md
+**Fig 11. Expected Folder Structure**  
+![Fig 11 — Expected Folder Structure](images/fig11_expected_folder_structure.png)
 
 ---
 
