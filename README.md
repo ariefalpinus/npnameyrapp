@@ -16,8 +16,7 @@ An interactive Shiny application to help National Park staff manage and prepare 
   DOI: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255)
 
 - **GitHub Release (for direct use):**  
-  [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/releases/download/v1.0-master/npnameyrapp-v1.0-master.zip)  
-  or view the [Release Page](https://github.com/ariefalpinus/npnameyrapp/releases/tag/v1.0-master)
+  [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.0-master.zip)  
 
 ---
 
@@ -44,9 +43,14 @@ An interactive Shiny application to help National Park staff manage and prepare 
   <!-- Hits counter -->
   <img src="https://hits.sh/github.com/ariefalpinus/npnameyrapp.svg" alt="Hits">
 
-  <!-- Downloads (clickable link to v1.0-master ZIP) -->
+  <!-- Source Archive (always available) -->
+  <a href="https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.0-master.zip">
+    <img src="https://img.shields.io/badge/download-source--archive-blue.svg" alt="Source Archive">
+  </a>
+
+  <!-- Release Asset (counted downloads, if uploaded) -->
   <a href="https://github.com/ariefalpinus/npnameyrapp/releases/download/v1.0-master/npnameyrapp-v1.0-master.zip">
-  <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total.svg" alt="Downloads">
+    <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total.svg" alt="Downloads">
   </a>
 
 </p>
