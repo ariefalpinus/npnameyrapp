@@ -8,6 +8,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [Unreleased]
 - Planned improvements and upcoming features will be listed here.
+- Roadmap: v1.1 → v2.0 → National Deployment
+
+---
+
+## [1.0-master] - 2025-11-26
+### Added
+- Re‑published **npnameyrapp v1.0** from the master branch
+- DOI minted via Zenodo: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255)
+- Updated `README.md` with DOI badge and download links
+- Revised `CITATION.cff` to include DOI and correct version metadata
+
+### Changed
+- Documentation alignment for reproducibility (README, CITATION, badges)
+
+### Fixed
+- Clarified release notes to distinguish between `v1.0.0` (main branch) and `v1.0-master` (master branch)
 
 ---
 

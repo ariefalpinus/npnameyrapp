@@ -9,6 +9,18 @@ An interactive Shiny application to help National Park staff manage and prepare 
 
 ---
 
+## Download npnameyrapp v1.0‑master
+
+- **Archived DOI Snapshot (for reproducibility):**  
+  [Download from Zenodo](https://zenodo.org/records/17725255)  
+  DOI: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255)
+
+- **GitHub Release (for direct use):**  
+  [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/releases/download/v1.0-master/npnameyrapp-v1.0-master.zip)  
+  or view the [Release Page](https://github.com/ariefalpinus/npnameyrapp/releases/tag/v1.0-master)
+
+---
+
 <p align="center">
 
   <!-- Project Status -->
@@ -32,8 +44,10 @@ An interactive Shiny application to help National Park staff manage and prepare 
   <!-- Hits counter -->
   <img src="https://hits.sh/github.com/ariefalpinus/npnameyrapp.svg" alt="Hits">
 
-  <!-- Downloads (works after first GitHub Release) -->
-  <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total" alt="Downloads">
+  <!-- Downloads (clickable link to v1.0-master ZIP) -->
+  <a href="https://github.com/ariefalpinus/npnameyrapp/releases/download/v1.0-master/npnameyrapp-v1.0-master.zip">
+  <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total.svg" alt="Downloads">
+  </a>
 
 </p>
 

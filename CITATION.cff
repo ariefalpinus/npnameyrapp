@@ -1,7 +1,8 @@
 cff-version: 1.2.0
 title: "npnameyrapp: A Shiny App for Wildlife Monitoring"
-version: "1.0"
-date-released: 2025-11-20
+version: "v1.0-master"
+doi: 10.5281/zenodo.17725255
+date-released: 2025-11-26
 authors:
   - family-names: "Budiman"
     given-names: "Arief"
@@ -9,7 +10,7 @@ authors:
     given-names: "Satyawan"
 license: GPL-3.0
 repository-code: "https://github.com/ariefalpinus/npnameyrapp"
-message: "If you use this app, please cite it using the metadata below."
+message: "If you use this app, please cite it using the metadata below (DOI included)."
 keywords:
   - wildlife monitoring
   - camera traps
