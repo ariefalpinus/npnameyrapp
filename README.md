@@ -53,6 +53,11 @@ An interactive Shiny application to help National Park staff manage and prepare 
     <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total.svg" alt="Downloads">
   </a>
 
+  <!-- DOI (Zenodo) -->
+  <a href="https://doi.org/10.5281/zenodo.17725255">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.17725255.svg" alt="DOI">
+  </a>
+
 </p>
 
 ---
