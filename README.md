@@ -11,12 +11,17 @@ An interactive Shiny application to help National Park staff manage and prepare 
 
 ## Download npnameyrapp v1.0‑master
 
-- **Archived DOI Snapshot (for reproducibility):**  
-  [Download from Zenodo](https://zenodo.org/records/17725255)  
-  DOI: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255)
+- **Stable Release (frozen snapshot for reproducibility):**  
+  [Download v1.0‑master (GitHub Tag)](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.0-master.zip)  
+  DOI Snapshot: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255)
 
-- **GitHub Release (for direct use):**  
-  [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.0-master.zip)  
+- **Latest Development Version (always up to date):**  
+  [Download from master branch](https://github.com/ariefalpinus/npnameyrapp/archive/refs/heads/master.zip)  
+  This version includes recent corrections to kernel plot axis logic, clock labels, and daylight shading.
+
+  > **Note:**  
+> Use the *Stable Release* for reproducibility and citation.  
+> Use the *Latest Development Version* to get the most recent updates.
 
 ---
 
@@ -43,9 +48,9 @@ An interactive Shiny application to help National Park staff manage and prepare 
   <!-- Hits counter -->
   <img src="https://hits.sh/github.com/ariefalpinus/npnameyrapp.svg" alt="Hits">
 
-  <!-- Source Archive (always available) -->
-  <a href="https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.0-master.zip">
-    <img src="https://img.shields.io/badge/download-source--archive-blue.svg" alt="Source Archive">
+  <!-- Source Archive (always updated) -->
+  <a href="https://github.com/ariefalpinus/npnameyrapp/archive/refs/heads/master.zip">
+  <img src="https://img.shields.io/badge/download-latest--source-blue.svg" alt="Latest Source">
   </a>
 
   <!-- Release Asset (counted downloads, if uploaded) -->
