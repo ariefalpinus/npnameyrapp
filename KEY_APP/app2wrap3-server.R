@@ -370,23 +370,66 @@ server <- function(input, output, session) {
   
   
   
-  # ---- 🧠 Modular plotting function ----
+  # ---- Modular plotting function ----
+
   makeKernelPlot <- function(data) {
     par(pty = "s")
     par(cex = 1.2, mar = c(4, 4, 2, 0), xpd = TRUE)
     
+    
     if (data$mode == "Single Species") {
+      # Compute density first (no plot)
+      d <- densityPlot(data$rad,
+                       xscale = 24,
+                       xcenter = data$center_valid,
+                       plot = FALSE,
+                       n.grid = 100)
+      
+      # Define axis ticks and labels
+      if (data$center_valid == "midnight") {
+        xlim <- c(-12, 12)
+        xat <- seq(-12, 12, 3)
+        xlabels <- c("Noon", "15:00", "18:00", "21:00", "Midnight", "03:00", "06:00", "09:00", "Noon")
+      } else {
+        xlim <- c(0, 24)
+        xat <- seq(0, 24, 3)
+        xlabels <- c("Midnight", "03:00", "06:00", "09:00", "Noon", "15:00", "18:00", "21:00", "Midnight")
+      }
+      
+      # Open a controlled canvas
+      plot(NULL,
+           xlim = xlim,
+           ylim = c(0, max(d$y) * 1.1),
+           xlab = "Time of Day (hours)",
+           ylab = "Kernel Density",
+           main = paste(data$selected_sp, "Activity Pattern"),
+           axes = FALSE, bty = "n")
+      
+      # Add daylight shading blocks
+      if (data$center_valid == "midnight") {
+        rect(-6, 0, 6, max(d$y) * 1.1, col = adjustcolor("gray90", alpha.f = 0.8), border = NA)
+      } else {
+        rect(6, 0, 18, max(d$y) * 1.1, col = adjustcolor("gray90", alpha.f = 0.8), border = NA)
+      }
+      
+      # Add axes and box
+      axis(1, at = xat, labels = xlabels, cex.axis = 0.9)
+      axis(2, las = 1)
+      box(bty = "l")
+      
+      # Overlay the density curve
       densityPlot(data$rad,
                   xscale = 24,
                   xcenter = data$center_valid,
-                  main = paste(data$selected_sp, "Activity Pattern"),
-                  xlab = "Time of Day (hours)",
-                  ylab = "Kernel Density",
+                  add = TRUE,
                   rug = TRUE,
                   col = "darkgreen",
                   n.grid = 100,
                   lwd = 2)
+      
+      # Add sunrise/sunset reference lines
       abline(v = c(5.5, 18 + 47/60), lty = 3)
+
       
     } else {
       if (data$no_species) {

@@ -6,6 +6,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
+## [1.0.1] - 2025-12-16
+### Changed
+- Refactored `makeKernelPlot()` to unify axis scaling and labeling logic across single- and multi-species modes.
+- Improved visual consistency of single-species kernel plots with controlled axis limits and readable clock-style labels.
+
+### Fixed
+- Resolved misalignment issue in single-species kernel plots caused by implicit axis scaling in `densityPlot()`.
+- Restored daylight shading blocks and reference lines for single-species plots centered at midnight or noon.
+
+---
+
 ## [Unreleased]
 - Planned improvements and upcoming features will be listed here.
 - Roadmap: v1.1 → v2.0 → National Deployment
