@@ -62,7 +62,7 @@ Menambahkan fitur auto‑folder, integrasi gambar+video, auto‑fill input spesi
 ---
 
 ## 📥 Download
-- [Zenodo DOI Snapshot](https://doi.org/10.5281/zenodo.[new_DOI])  
+- [Zenodo DOI Snapshot](https://doi.org/10.5281/zenodo.18110181) 
 - [GitHub Release ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.1-master.zip)  
 - [Master Branch ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/heads/master.zip)  
 

@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 title: "npnameyrapp: A Shiny App for Wildlife Monitoring"
 version: "v1.1-master"
-doi: 10.5281/zenodo.[new_DOI]   # replace with actual Zenodo DOI for v1.1
+doi: 10.5281/zenodo.18110181
 date-released: 2026-01-01
 authors:
   - family-names: "Budiman"

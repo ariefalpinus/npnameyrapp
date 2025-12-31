@@ -93,6 +93,9 @@ To run **npnameyrapp v1.1**, we recommend the following environment and supporti
 - Use the **Latest Development Version** to get the most recent updates.  
 - For workflows involving video files, please read the *Critical Steps* section before launching App1.  
 
+## 📌 How to Cite
+Budiman, A., & Pudyatmoko, S. (2026). *npnameyrapp: A Shiny App for Wildlife Monitoring* (v1.1-master) [Software]. Zenodo. https://doi.org/10.5281/zenodo.18110181
+
 ---
 
 # Upgrade npnameyrapp v1.0 → v1.1  
@@ -160,9 +163,9 @@ To run **npnameyrapp v1.1**, we recommend the following environment and supporti
   <img src="https://img.shields.io/github/downloads/ariefalpinus/npnameyrapp/total.svg" alt="Downloads">
 </a>
 
-   <!-- DOI (Zenodo) -->
-  <a href="https://doi.org/10.5281/zenodo.[new_DOI]">
-  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.[new_DOI].svg" alt="DOI">
+<!-- DOI (Zenodo) -->
+<a href="https://doi.org/10.5281/zenodo.18110181">
+  <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.18110181.svg" alt="DOI">
 </a>
 
 </p>
