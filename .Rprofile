@@ -16,6 +16,26 @@ message("🎉 Welcome to Shiny App v1.1")
 message("🔧 Checking required packages for App1 and App2...")
 
 # ============================================================
+# Auto-clean Windows system files in ALL CTmonitoring subfolders
+# ============================================================
+
+ct_base <- "data/CTmonitoring"
+
+if (dir.exists(ct_base)) {
+  ct_dirs <- list.dirs(ct_base, recursive = TRUE, full.names = TRUE)
+  
+  for (d in ct_dirs) {
+    ini_file <- file.path(d, "desktop.ini")
+    if (file.exists(ini_file)) {
+      file.remove(ini_file)
+      message("🗑 Removed unwanted file: ", ini_file)
+    }
+  }
+} else {
+  message("⚠️ CTmonitoring folder not found, skipping cleanup.")
+}
+
+# ============================================================
 # Combined list of required packages
 # ============================================================
 
