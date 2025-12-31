@@ -77,9 +77,9 @@ To run **npnameyrapp v1.1**, we recommend the following environment and supporti
 
 ## Download npnameyrapp v1.1‑master  
 
-- **Archived DOI Snapshot (for reproducibility):**  
-  [Download from Zenodo](https://zenodo.org/records/[new_DOI])  
-  DOI: [10.5281/zenodo.[new_DOI]](https://doi.org/10.5281/zenodo.[new_DOI])  
+- **Archived DOI Snapshot (for reproducibility):**
+  [Download from Zenodo](https://zenodo.org/records/18110181)  
+  DOI: [10.5281/zenodo.18110181](https://doi.org/10.5281/zenodo.18110181)  
 
 - **GitHub Release (for direct use):**  
   [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.1-master.zip)  
