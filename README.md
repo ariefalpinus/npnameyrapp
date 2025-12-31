@@ -384,7 +384,7 @@ See [LICENSE.md](LICENSE.md) for details.
 | Version | Date       | Key Features |
 |---------|------------|--------------|
 | **v1.0** | 2025‑11‑20 | Initial release. Stable workflows for camera trap data (images only). Includes kernel plot axis corrections, clock labels, daylight shading. DOI: [10.5281/zenodo.17725255](https://doi.org/10.5281/zenodo.17725255) |
-| **v1.1** | **2026‑01‑01** | **Auto‑folder creation (App1 & App2)**, **Image + Video integration**, **Data preview (100–1000 rows)**, **Species‑input auto‑fill for GBIF validation**, **Activity overlap plots**, **Overlap coefficient estimation with automatic CI method**, **Bootstrap customization (1000–10000 runs)**. DOI: [10.5281/zenodo.[new_DOI]](https://doi.org/10.5281/zenodo.[new_DOI]) |
+| **v1.1** | **2026‑01‑01** | **Auto‑folder creation (App1 & App2)**, **Image + Video integration**, **Data preview (100–1000 rows)**, **Species‑input auto‑fill for GBIF validation**, **Activity overlap plots**, **Overlap coefficient estimation with automatic CI method**, **Bootstrap customization (1000–10000 runs)**. DOI:  [10.5281/zenodo.18110181](https://doi.org/10.5281/zenodo.18110181)
 
 ---
 
