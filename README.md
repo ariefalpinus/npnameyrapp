@@ -206,7 +206,7 @@ The application consists of two sub-applications run separately and sequentially
 ---
 
 ## Download & Extract ZIP File
-Download `npnameyrapp.zip`, then extract it into `C:/Users/ACER` (or any folder of your choice).  
+Download `npnameyrapp-master.zip`, then extract it into `C:/Users/ACER` (or any folder of your choice).  
 
 Open `npnameyrapp.Rproj` to launch RStudio with the working directory set to:  
 
