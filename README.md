@@ -193,7 +193,7 @@ It provides a partially interactive interface that implements workflows from:
 - **RPresence** (`install.packages('RPresence', repos='https://www.mbr-pwrc.usgs.gov/mbrCRAN')`) for static occupancy analysis (single species – single season).  
 
 The application consists of two sub-applications run separately and sequentially:  
-- **App1** ("script/launch-v1-0/RUN-appV1_1.R")  
+- **App1** ("script/launch-v1-1/RUN-appV1_1.R")  
 - **App2** ("script/launch-v1-1/RUN-app2V1_1.R")  
 
 **Inputs:**  
