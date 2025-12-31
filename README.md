@@ -81,9 +81,6 @@ To run **npnameyrapp v1.1**, we recommend the following environment and supporti
   [Download from Zenodo](https://zenodo.org/records/18110181)  
   DOI: [10.5281/zenodo.18110181](https://doi.org/10.5281/zenodo.18110181)  
 
-- **GitHub Release (for direct use):**  
-  [Download ZIP](https://github.com/ariefalpinus/npnameyrapp/archive/refs/tags/v1.1-master.zip)  
-
 - **Latest Development Version (always up to date):**  
   [Download from master branch](https://github.com/ariefalpinus/npnameyrapp/archive/refs/heads/master.zip)  
   This version includes recent corrections to kernel plot axis logic, clock labels, and daylight shading.  
