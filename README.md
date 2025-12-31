@@ -5,6 +5,7 @@
 # npnameyrapp v1.1  
 **Authors:** Arief Budiman & Satyawan Pudyatmoko  
 **Date:** 2026‑01‑01  
+
 **Keywords:** Auto‑folder creation, Image + Video integration (Hybrid CT data), Data preview, Species‑input auto‑fill, GBIF validation, Activity overlap plots, Overlap coefficient estimation, Bootstrap customization, Confidence intervals, Automatic package check, Startup experience, User‑friendly onboarding
 
 ## 📖 Overview
@@ -58,19 +59,19 @@ To run **npnameyrapp v1.1**, we recommend the following environment and supporti
 - ⚠️ Important: The app will only run after all packages are installed.
 
 
-📝 Example Console Output
+## 📝 Example Console Output
 
-🎉 Welcome to Shiny App v1.1
-🔧 Checking required packages for App1 and App2...
-➡ Loading package: shiny
-   ✔ Package 'shiny' loaded successfully.
-➡ Loading package: janitor
-   ❌ Package 'janitor' is not installed.
-      To install, run: install.packages("janitor")
-⚠️ The following packages are missing and need to be installed:
-   janitor
-💡 Please install them using the commands shown above, then restart R.
-📋 Package check completed at: 2026-01-01 10:30:00
+- 🎉 Welcome to Shiny App v1.1  
+- 🔧 Checking required packages for App1 and App2...  
+- ➡ Loading package: shiny  
+  - ✔ Package 'shiny' loaded successfully.  
+- ➡ Loading package: janitor  
+  - ❌ Package 'janitor' is not installed.  
+  - To install, run: `install.packages("janitor")`  
+- ⚠️ The following packages are missing and need to be installed:  
+  - janitor  
+- 💡 Please install them using the commands shown above, then restart R.  
+- 📋 Package check completed at: 2026-01-01 10:30:00
 
 ---
 
@@ -195,8 +196,8 @@ It provides a partially interactive interface that implements workflows from:
 - **RPresence** (`install.packages('RPresence', repos='https://www.mbr-pwrc.usgs.gov/mbrCRAN')`) for static occupancy analysis (single species – single season).  
 
 The application consists of two sub-applications run separately and sequentially:  
-- **App1** (`script/launch-v1-0/RUN-appV1_1.R`)  
-- **App2** (`script/launch-v1-1/RUN-app2V1_1.R`)  
+- **App1** ("script/launch-v1-0/RUN-appV1_1.R")  
+- **App2** ("script/launch-v1-1/RUN-app2V1_1.R")  
 
 **Inputs:**  
 - App1 requires two datasets: `data/CTmonitoring` and `data/ctTable`.  
