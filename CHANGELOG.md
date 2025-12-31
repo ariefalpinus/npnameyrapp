@@ -6,7 +6,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ---
 
-## [1.0.1] - 2025-12-16
+## [1.1-master] - 2026-01-01
+### Added
+- Auto‑folder creation (App1 & App2).
+- Image + Video integration in App1 workflows.
+- Data preview (100–1000 rows) in App2.
+- Species‑input auto‑fill for GBIF validation.
+- Activity overlap plots and overlap coefficient estimation with automatic CI method.
+- Bootstrap customization (1000–10000 runs) with confidence interval summary table.
+- Automatic package check at startup (`.Rprofile`): ensures all required packages for App1 & App2 are installed and loaded, with friendly console messages and safe fallback instructions.
+- New folders: `script/launch-v1-1/`, `KEY_APP2/`.
+- New documentation files: `RELEASES.md`, updated `README.md`, `CHANGELOG.md`, `CITATION.cff`.
+- **New station folder** in `~/data/CTmonitoring/` containing `video.avi` files as Camera Trap Data (CTD).
+- **New CT tables** (`CT_TABLE.txt` and `CT_TABLE.xlsx`) in `~/data/ctTable/` including metadata and records for the new CTD station.
+
 ### Changed
 - Refactored `makeKernelPlot()` to unify axis scaling and labeling logic across single- and multi-species modes.
 - Improved visual consistency of single-species kernel plots with controlled axis limits and readable clock-style labels.
@@ -14,6 +27,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 ### Fixed
 - Resolved misalignment issue in single-species kernel plots caused by implicit axis scaling in `densityPlot()`.
 - Restored daylight shading blocks and reference lines for single-species plots centered at midnight or noon.
+
+### DOI
+- DOI minted via Zenodo: [10.5281/zenodo.[new_DOI]](https://doi.org/10.5281/zenodo.[new_DOI])
 
 ---
 

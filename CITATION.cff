@@ -1,8 +1,8 @@
 cff-version: 1.2.0
 title: "npnameyrapp: A Shiny App for Wildlife Monitoring"
-version: "v1.0-master"
-doi: 10.5281/zenodo.17725255
-date-released: 2025-11-26
+version: "v1.1-master"
+doi: 10.5281/zenodo.[new_DOI]   # replace with actual Zenodo DOI for v1.1
+date-released: 2026-01-01
 authors:
   - family-names: "Budiman"
     given-names: "Arief"
@@ -17,6 +17,18 @@ keywords:
   - Shiny
   - R
   - conservation
+  - Auto-folder creation
+  - Image + Video integration
+  - Data preview
+  - Species-input auto-fill
+  - GBIF validation
+  - Activity overlap plots
+  - Overlap coefficient estimation
+  - Bootstrap customization
+  - Confidence intervals
+  - Automatic package check
+  - Startup experience
+  - User-friendly onboarding
 
 references:
   - type: manual
@@ -126,3 +138,30 @@ references:
     identifiers:
       - type: doi
         value: "10.1007/s42991-023-00361-8"
+
+  - type: article
+    title: "Estimating overlap of daily activity patterns from camera trap data"
+    authors:
+      - family-names: "Ridout"
+        given-names: "M. S."
+      - family-names: "Linkie"
+        given-names: "M."
+    year: 2009
+    journal: "Journal of Agricultural, Biological, and Environmental Statistics"
+    volume: 14
+    issue: 3
+    pages: "322–337"
+    doi: "10.1198/jabes.2009.08038"
+    identifiers:
+      - type: doi
+        value: "10.1198/jabes.2009.08038"
+
+  - type: software
+    title: "Overview of the overlap package"
+    authors:
+      - family-names: "Meredith"
+        given-names: "M."
+      - family-names: "Ridout"
+        given-names: "M."
+    year: 2016
+    url: "https://CRAN.R-project.org/package=overlap"
