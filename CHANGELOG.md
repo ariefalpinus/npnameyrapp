@@ -29,7 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Restored daylight shading blocks and reference lines for single-species plots centered at midnight or noon.
 
 ### DOI
-- DOI minted via Zenodo: [10.5281/zenodo.[new_DOI]](https://doi.org/10.5281/zenodo.[new_DOI])
+- DOI minted via Zenodo: [10.5281/zenodo.18110181](https://doi.org/10.5281/zenodo.18110181)
 
 ---
 
