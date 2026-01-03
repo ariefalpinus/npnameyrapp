@@ -10,15 +10,15 @@
 
 ## 📖 Overview
 
-An interactive Shiny application to help National Park staff manage and prepare wildlife monitoring databases.  
+**npnameyrapp** is an interactive Shiny application designed to support National Park and protected-area staff in managing and preparing wildlife monitoring databases, particularly camera trap data.
 
-The development of **npnameyrapp v1.1** was shaped by collaboration with **WCC UGM (Wildlife Conservation Centre – Universitas Gadjah Mada)**, users, and practitioners during the activity *“Camera Trap Data Management Using the npnameyrapp v1.0‑master Application”* at **Baluran National Park, Situbondo, East Java (5 December 2025)**.  
+The development of **npnameyrapp v1.1** was **directly shaped by collaboration and field-based contributions** from the **Wildlife Conservation Centre (WCC), Universitas Gadjah Mada**, as well as park staff, users, and practitioners involved in the activity *“Camera Trap Data Management Using the npnameyrapp v1.0-master Application”*, held at **Baluran National Park, Situbondo, East Java (5 December 2025)**. Feedback from this activity informed both design decisions and feature priorities in the current version.
 
-WCC UGM launched this application via their [official website](https://satwaliar.fkt.ugm.ac.id/2025/12/25/app-launch-npnameyrapp-untuk-monitoring-satwa-liar/). Their support, feedback, and real‑world use cases guided the new features and improvements.  
+WCC UGM also supported the **public launch** of the application through their official website [official website](https://satwaliar.fkt.ugm.ac.id/2025/12/25/app-launch-npnameyrapp-untuk-monitoring-satwa-liar/), contributing institutional backing and facilitating wider dissemination. Real-world use cases, operational constraints, and practitioner feedback were essential in refining workflows, improving usability, and expanding functionality from v1.0 to v1.1.  
 
-npnameyrapp is a **community‑driven, open‑source tool** supporting national park and protected area staff in managing camera trap data. By sharing experiences and challenges from the field, users ensure the app remains practical, relevant, and responsive to conservation needs.  
+As a **community-driven, open-source project**, npnameyrapp grows through shared experience between developers, conservation practitioners, and researchers. Field insights and practical challenges reported by users play a central role in ensuring the application remains relevant, robust, and responsive to conservation monitoring needs. 
 
-We invite contributions of all kinds — **code, documentation, testing, feature requests, and field feedback**. Whether you are a ranger, researcher, student, or developer, your participation strengthens monitoring capacity and supports evidence‑based decisions for species persistence and ecosystem resilience.  
+We welcome contributions in many forms—including **code development, documentation, testing, feature suggestions, and field feedback**. Whether you are a ranger, researcher, student, or developer, your contributions help strengthen wildlife monitoring capacity and support evidence-based decisions for species persistence and ecosystem resilience. 
 
 ---
 
