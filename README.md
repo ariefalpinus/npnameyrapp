@@ -100,27 +100,54 @@ Budiman, A., & Pudyatmoko, S. (2026). *npnameyrapp: A Shiny App for Wildlife Mon
 
 ## What’s New  
 
-### App1  
-- **Auto‑folder creation**: Automatically creates the necessary folders and input paths for you  
-- **Image + Video integration**: Can now handle both images and videos together when building camera trap tables  
+Version 1.1 introduces workflow automation, improved usability, and expanded analytical features.  
+Many of these updates were informed by real-world use cases and feedback from practitioners during field-based training and deployment.
 
-### App2  
-- **Auto‑folder creation**: Automatically creates its own folders and input paths  
-- **Data preview**: Lets you preview between **100–1000 rows** of data from App1  
-- **Species‑input auto‑fill**: Automatically fills in the “Species‑input” column using the species tag list, to help with **GBIF validation**  
-- **Activity overlap plots**: Adds an option to plot activity overlap between **two species**  
-- **Overlap coefficient estimation**: Estimates overlap coefficients for one species pair, with **automatic estimator + confidence interval method**  
-- **Bootstrap customization**: Lets you choose how many bootstrap runs (**1000–10000**) to use, and provides a **summary table of confidence intervals**  
+---
+
+### App1  — Data Preparation & Table Construction
+
+- **Auto-folder creation**  
+  Automatically generates the required folder structure and input paths, reducing manual setup and path errors.
+
+- **Image + Video integration (Hybrid CT data)**  
+  Supports combined processing of image and video files when building camera trap tables, enabling more flexible workflows.
+
+---
+
+### App2  — Analysis & Interpretation
+
+- **Auto-folder creation**  
+  Automatically creates its own working directories and input paths for downstream analyses.
+
+- **Data preview**  
+  Allows previewing **100–1000 rows** of processed data from App1 before analysis.
+
+- **Species-input auto-fill**  
+  Automatically populates the *Species-input* column using the species tag list, supporting standardized naming and **GBIF validation**.
+
+- **Activity overlap plots (two species)**  
+  Adds an option to visualize daily activity overlap between two selected species.
+
+- **Overlap coefficient estimation**  
+  Estimates overlap coefficients for a single species pair, using automatic estimator selection and confidence interval methods.
+
+- **Bootstrap customization**  
+  Allows users to define the number of bootstrap iterations (**1,000–10,000**) and generates a summary table of confidence intervals.
+
+---
 
 ### General Improvements  
+
 - **Automatic package check at startup**  
-  When opening the project in RStudio, npnameyrapp v1.1 automatically checks whether all required packages for both App1 and App2 are available.  
-  - ✅ No manual setup needed — beginners can launch smoothly if packages are already installed.  
-  - ❌ If a package is missing, RStudio provides clear manual installation instructions in the console.  
-  - ⚠️ RStudio itself still opens normally even if packages are missing.  
-  - 📋 Console messages guide you step‑by‑step, ending with:  
-    *“All packages are ready. You can now launch the app.”*  
-    
+  When opening the project in RStudio, npnameyrapp v1.1 automatically checks whether all required packages for App1 and App2 are available.
+
+  - ✅ No manual setup required if all packages are already installed  
+  - ❌ Clear installation instructions are shown in the console if packages are missing  
+  - ⚠️ RStudio opens normally even when packages are missing  
+  - 📋 Step-by-step console messages guide users until completion, ending with:  
+    *“All packages are ready. You can now launch the app.”*
+
 ---
 
 ### 🔑 Keywords  
